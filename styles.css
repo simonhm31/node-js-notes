@@ -1,0 +1,26 @@
+body {
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title {
+    background-color: aqua;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    margin-bottom: 90px;
+}
+
+.subtitle {
+    background-color: beige;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    margin-bottom: 90px;
+}
