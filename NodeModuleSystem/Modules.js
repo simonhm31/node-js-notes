@@ -1,8 +1,3 @@
 
 
-let sayHello = function(){
-
-}
-
-
-window.sayHello();
+console.log(console);
