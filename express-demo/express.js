@@ -10,10 +10,15 @@ const app = express();
 
 // These 4 express methods correlate with types of HTTP requests
 
+
+// defining API endpoints with app.get() method
 app.get("/", (req, res) => {
     res.send("Hello World");
 })
 
+app.get("/message", (req, res) => {
+    res.send("[234]");
+})
 
 app.get("/api/courses", (req, res) => {
     res.send([420, 1, 2, 3, 4, 5])
