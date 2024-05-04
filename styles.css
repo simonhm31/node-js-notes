@@ -3,7 +3,12 @@ body {
     text-align: center;
     width: 75%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger; 
 }
+
+ html {
+    font-size: larger; 
+ } 
 
 .title {
     background-color: aqua;
@@ -17,10 +22,25 @@ body {
 
 .subtitle {
     background-color: beige;
-    padding-top: 10px;
-    padding-bottom: 10px;
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 0 0 5px grey;
+    box-shadow: 0 0 15px grey;
     margin-bottom: 90px;
+}
+
+.subsubtitle {
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 20px;
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.text {
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    width: 85%;
+    border: 2px solid black;
 }
