@@ -13,7 +13,7 @@ const app = express();
 
 // defining API endpoints with app.get() method
 app.get("/", (req, res) => {
-    res.send("Hello Worswefgld");
+    res.send("Hello World!!!!");
 })
 
 app.get("/message", (req, res) => {
@@ -24,4 +24,5 @@ app.get("/api/courses", (req, res) => {
     res.send([420, 1, 2, 3, 4, 5])
 })
 
-app.listen(3000, () => console.log("Listening on port 3000..."));
+
+app.listen(port, () => console.log(`Listening on port ${port}...`));
