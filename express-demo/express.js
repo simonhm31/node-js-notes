@@ -13,7 +13,7 @@ const app = express();
 
 // defining API endpoints with app.get() method
 app.get("/", (req, res) => {
-    res.send("Hello World");
+    res.send("Hello Worswefgld");
 })
 
 app.get("/message", (req, res) => {
