@@ -142,7 +142,7 @@
 
             <div class="text">
                 <p>Running <code>node --watch [filename]</code> from project home directory will create a live server that will automatically reload when code is changed</p>
-                <p><code>--watch</code> does require to you refresh the page over and over to display new changes. However, it doesn't require you to restart the Node server which is the point of <br><code>--watch</code> in the first place</p>
+                <p><code>--watch</code> does require to you refresh the page over and over to display new changes. However, it doesn't require you to restart the Node server which is the point of <code>--watch</code> in the first place</p>
             </div>
         </div>
 
@@ -162,7 +162,7 @@
             <h2>HTTP GET Requests</h2>
 
             <div class="text">
-                wvev
+                
             </div>
         </div>
 
@@ -174,5 +174,35 @@
 
     </div>
 
+    <div class="subtitle">
+        <h2>Express Advanced Topics</h2>
+    </div>
+
+    <div class="subtitle">
+        <h2>Asynchronous JavaScript</h2>
+    </div>
+
+    <div class="subtitle">
+        <h2>CRUD Operations Using Mongoose</h2>
+
+        <div class="subsubtitle">
+            <h2>Introducing MongoDB</h2>
+            <div class="text">
+                <p>In the previous example, we stored the <code>courses</code> array in the express.js web server file and sent the array to the API endpoint <code>/api/courses</code>:</p>
+
+                <img id="courses-without-database" src="./coursesWithoutDatabase.png" alt="backend for courses array">
+
+                <p>This results in:</p>
+
+                <img id="courses-result" src="./courses-result.png" alt="displaying courses array in browser">
+
+                <p>However, this is <strong>not</strong> a real world way to do this. Here, you need to store the <code>courses</code> array in a database</p>
+            </div>
+
+            <div class="text">
+                <h2 id="mongo-db-heading">MongoDB</h2>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

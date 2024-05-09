@@ -62,3 +62,23 @@ body {
     padding: 5px;
     border: 1px solid grey;
 }
+
+#courses-without-database {
+    width: 450px;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px dashed black;
+}
+
+#courses-result {
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    border: 1px dashed black;
+    margin-bottom: 15px;
+}
+
+#mongo-db-heading {
+    text-shadow: 1.5px 1.5px aqua;
+}
