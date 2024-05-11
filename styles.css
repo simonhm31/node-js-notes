@@ -44,6 +44,8 @@ body {
     margin-top: 20px;
     width: 85%;
     border: 2px solid black;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 #express-hello-world-code-image {
@@ -79,6 +81,6 @@ body {
     margin-bottom: 15px;
 }
 
-#mongo-db-heading {
+#text-shadow-heading {
     text-shadow: 1.5px 1.5px aqua;
 }
