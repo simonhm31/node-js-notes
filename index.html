@@ -24,7 +24,7 @@
             <div class="text">
                 <p><code>console</code> is a global object. It can be accessed anywhere - you can always call <code>console.log()</code></p>
 
-                There are other global objects in JavaScript-
+                <p>There are other global objects in JavaScript-</p>
 
                 <ul>
                     <li><code>setTimeout()</code></li>
@@ -39,7 +39,7 @@
         <div class="subsubtitle">
             <h2>Modules</h2>
             <div class="text">
-                When Node.js is installed globally, it comes with a set of built-in modules: 
+                <p>When Node.js is installed globally, it comes with a set of built-in modules: </p>
 
                 <ul>
                     <li><code>"path"</code></li>
@@ -47,7 +47,7 @@
                     <li><code>"https"</code></li>
                 </ul>
 
-                These modules can be accessed in a .js file by <code>const pathModule = require("path")</code>. You can see the whole module by <code>console.log(pathModule)</code>
+                <p>These modules can be accessed in a .js file by <code>const pathModule = require("path")</code>. You can see the whole module by <code>console.log(pathModule)</code></p>
             </div>
 
 
@@ -59,7 +59,16 @@
         <div class="subsubtitle">
             <h2>Path Module</h2>
             <div class="text">
-                The path module has different methods you can use
+                <p>The path module has different methods you can use</p>
+            </div>
+        </div>
+
+        <div class="subsubtitle">
+            <h2>Filesystem Module</h2>
+            <div class="text">
+                <p>To get information about the current directory or file you can use <code>console.log(__filename)</code> or <code>console.log(__dirname)</code></p>
+
+                <p>However, if we want to get information about the entire filesystem we can import the filesystem module with <code>const fs = require("fs")</code></p>
             </div>
         </div>
         <div class="subsubtitle">
@@ -70,7 +79,7 @@
             <h2>HTTP Module</h2>
 
             <div class="text">
-                Using the HTTP Module we can create web servers that listen on specific port.
+                <p>Using the HTTP Module we can create web servers that listen on specific port.</p>
             </div>
         </div>
     </div>
@@ -82,7 +91,7 @@
             <h2>Introduction</h2>
             
             <div class="text">
-                Node Package Manager (NPM) is a command line tool and registry of third party libraries that you can add to Node applications. When you install Node it comes with NPM
+                <p>Node Package Manager (NPM) is a command line tool and registry of third party libraries that you can add to Node applications. When you install Node it comes with NPM</p>
             </div>
         </div>
 
@@ -90,11 +99,11 @@
             <h2>Package.json</h2>
 
             <div class="text">
-                Before you add any Node packages to an application, you need to create a <code>package.json</code> file. Running <code>"npm init"</code> from your project's home directory will walk you through creating a package.json file.
+                <p>Before you add any Node packages to an application, you need to create a <code>package.json</code> file. Running <code>"npm init"</code> from your project's home directory will walk you through creating a package.json file.</p>
             </div>
 
             <div class="text">
-                Before adding <u>any</u> node packages to an application you <u>need</u> to create a <code>package.json</code> file
+                <p>Before adding <u>any</u> node packages to an application you <u>need</u> to create a <code>package.json</code> file</p>
             </div>
         </div>
         
@@ -111,25 +120,25 @@
         <div class="subsubtitle">
             <h2>RESTful Services</h2>
             <div class="text">
-                <code>REST</code> is short for "Representative State Transfer"
+                <p><code>REST</code> is short for "Representative State Transfer"</p>
             </div>
         </div>
 
         <div class="subsubtitle">
             <h2>Introducing Express</h2>
             <div class="text">
-                Express is built on top of Node.
+                <p>Express is built on top of Node.</p>
             </div>
         </div>
 
         <div class="subsubtitle">
             <h2>Building Your First Web Server</h2>
             <div class="text">
-                Import the express Node module with <code>const express = require("express");</code>
+                <p>Import the express Node module with <code>const express = require("express");</code></p>
             </div>
 
             <div class="text">
-                A skeleton Hello World message with express looks like 
+                <p>A skeleton Hello World message with express looks like </p>
                 <img id="express-hello-world-code-image" src="./express-hello-world.png" alt="hello world with express">
 
                 <p>This returns:</p>
